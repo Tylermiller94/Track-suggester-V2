@@ -7,145 +7,136 @@
       <script src="js/scripts.js"></script>
       <title>suggester</title>
   </head>
-
-
   <body>
-
     <div class="container">
       <div class="jumbotron">
-      <h1>Suggester Quiz</h1>
-    </div>
-    <br>
+        <h1>Suggester Quiz</h1>
+      </div>
       <form class="questions">
-
-        <div class="radio">
-	  		 <p>1. Quiz question #1</p>
+        <div class="form-group">
+          <div class="radio">
+	  	      <p>1. Do you have any previous experience with programming?</p>
+            <label>
+	    	      <input type="radio" name="q1" value="1">
+              I am very proficient in Programming (previous training or employment)
+            </label>
+          </div>
+          <div class="radio">
           <label>
-	    	 <input type="radio" name="q1" value="1">1
-          </label>
+	           <input type="radio" name="q1" value="2">
+             Some experience in programming (example: self taught lessons or high school class)
+	        </label>
         </div>
-
         <div class="radio">
           <label>
-	       <input type="radio" name="q1" value="2">2
-	       </label>
-       </div>
-
-       <div class="radio">
-         <label>
-	       <input type="radio" name="q1" value="3">3
-	       </label>
-    	 </div>
-
-
-
-       <div class="form-group" id="q2">
-        <div class="radio">
-          <p>2. Quiz question #2</p>
-          <label>
-          <input type="radio" name="q2" value="1">1
-          </label>
-        </div>
-
-
-        <div class="radio">
-          <label>
-           <input type="radio" name="q2" value="2">2
-         </label>
-        </div>
-
-        <div class="radio">
-          <label>
-            <input type="radio" name="q2" value="3">3
-          </label>
-        </div>
+	           <input type="radio" name="q1" value="3">
+             I have no experience with programming
+	        </label>
+    	  </div>
       </div>
-
-
-      <div class="form-group" id="q3">
-        <div class="radio">
-          <p>3. Quiz question #3</p>
-          <label>
-          <input type="radio" name="q3" value="1">1
-        </label>
+        <div class="form-group" id="q2">
+          <div class="radio">
+            <p>2. Why would you like to attend Epicodus?</p>
+            <label>
+              <input type="radio" name="q2" value="1">
+              Aquire skills for a future career or current employment?
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="q2" value="2">
+              Gain experience?
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="q2" value="3">
+              Just for fun?
+            </label>
+          </div>
         </div>
-
+        <div class="form-group" id="q3">
         <div class="radio">
+          <p>3. how organized would you consider yourself?</p>
+            <label>
+              <input type="radio" name="q3" value="1">
+              As long as I know where everything is, I dont mind
+            </label>
+          </div>
+          <div class="radio">
           <label>
-            <input type="radio" name="q3" value="2">2
-         </label>
+            <input type="radio" name="q3" value="2">
+            Decently organized, I like to have everything aesthetically pleasing
+          </label>
         </div>
-
         <div class="radio">
           <label>
-            <input type="radio" name="q3" value="3">3
+            <input type="radio" name="q3" value="3">
+            Very organized, I like to be by the book
          </label>
         </div>
       </div>
-
       <div class="form-group" id="q4">
         <div class="radio">
-          <p>4. Quiz question #4</p>
+          <p>4. Would you rather deal with small details or big picture?</p>
           <label>
-          <input type="radio" name="q4" value="1">1
+            <input type="radio" name="q4" value="1">
+            small details matter most!
           </label>
         </div>
-
         <div class="radio">
           <label>
-           <input type="radio" name="q4" value="2">2
+            <input type="radio" name="q4" value="2">
+            I like to think big picture
           </label>
         </div>
-
         <div class="radio">
           <label>
-            <input type="radio" name="q4" value="3">3
+            <input type="radio" name="q4" value="3">
+            big or small, its all important!
           </label>
         </div>
       </div>
-
       <div class="form-group" id="q5">
         <div class="radio">
-          <p>1. Quiz question #5</p>
+          <p>5. How does spending many hours on one task make you feel?</p>
           <label>
-            <input type="radio" name="q5" value="1">1
+            <input type="radio" name="q5" value="1">
+            <img src="img/happy.jpg" width= "200px">
           </label>
         </div>
 
         <div class="radio">
            <label>
-             <input type="radio" name="q5" value="2">2
+             <input type="radio" name="q5" value="2">
+             <img src="img/okay.jpg" width="200">
            </label>
         </div>
 
         <div class="radio">
           <label>
-            <input type="radio" name="q5" value="3">3
+            <input type="radio" name="q5" value="3">
+            <img src="img/sad.jpg" width="200px">
           </label>
         </div>
         <button class="btn" type="submit">Submit</button>
       </div>
     </div>
   </form>
-
-
+  <div class="container">
     <div id="csharp">
       <h2>C#/.NET</h2>
       <p>C# is most popular among bigger established businesses, often for building internal software. Because it's been around for a long time and has the backing of Microsoft, it is one of the most in-demand languages in the job market. C# has also been going through a bit of a rebirth lately, with Microsoft open sourcing the language and surrounding platform, porting it to run on Mac and Linux, and incorporating many of the best features of other languages. If you like the idea of working for a larger company on business software, C# is a great choice.</p>
     </div>
-
     <div id="css">
       <h2>CSS/Design</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, nobis, eos similique impedit laborum enim quidem, saepe praesentium atque dolorum repellendus quas dolore fuga consectetur repellat? Harum nihil commodi quod?</p>
+      <p>artistic or creative, CSS/design is perfect for you, Front-end developers spend their time making things look and work well, obsessing over layouts, navigation, colors, and design. If this type of work appeals to you, your best bet is to take CSS and Design classes at Epicodus. </p>
     </div>
-
     <div id="ruby">
       <h2>Ruby/Rails</h2>
       <p>Ruby is a favorite language of developers building interactive web applications. If an app involves users creating accounts, entering information, and interacting with dynamic content, there's a good chance it is built with Ruby. Ruby became popular because the Rails framework, which is written with Ruby, simplified many of the common tasks associated with building web applications. It's most popular with startups and smaller companies who are looking to build their product quickly.
       Though each language has its niche, there is plenty of crossover. For example, Rails' popularity inspired copycats in just about every language, and so you'll see interactive web applications written in C#, Java, and PHP, with Rails-like frameworks including .NET MVC, Spring, and Laravel. Even at one company, you might find them using PHP for their marketing site, Ruby for their web application, and Java for their back-end processing. </p>
     </div>
-
-
-
-    </body>
+  </div>
+</body>
 </html>
